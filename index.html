@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Units</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            padding-left: 20px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        .anchor{
+            padding-right: 20px;
+        }
+        .section-container{
+            display: flex;
+            justify-content: center;
+            height: 90vh;
+            align-items: center;
+            border: 1px solid blue;
+        }
+        .form-container{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            border: 2px solid gray;
+            margin-left: 20px;
+            padding: 10px;
+        }
+        .form-container input{
+            margin-top: 20px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="">Home</a>
+            <a href="">Profile</a>
+            <a href="">Blog</a>
+            <a href="">About</a>
+        </div>
+        <a class="anchor" href="">Login</a>
+    </nav>
+    <section class="section-container">
+        <form class="form-container">
+            <h3>Please LOGIN</h3>
+            <input type="email" name="" id="" placeholder="Your Email" required>
+            <input type="password" name="" id="" placeholder="password" required>
+            <input type="submit" value="Login">
+        </form>
+    </section>
+</body>
+</html>

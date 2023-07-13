@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+        .food{
+            border: 2px solid aliceblue;
+            margin: 10px;
+            border-radius: 4px;
+            padding: 10px;
+            box-shadow: 4px 4px 8px gray;
+        }
+        .food img{
+            width: 100%;
+        }
+        .heading{
+            text-align: center;
+        }
+        .paragraph{
+            text-align: center;
+        }
+        .btn{
+            padding: 20px;
+            border: 0px;
+            background-color: cadetblue;
+            border-radius: 4px;
+            margin-left: 250px;
+        }
+        @media screen and (max-width:576px) {
+            .container{
+                grid-template-columns: repeat(1,1fr);
+            }
+        }
+        @media screen and (min-width:576px) and (max-width:992px) {
+            .container{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3 class="heading">Food Item - 1</h3>
+            <p class="paragraph">Price: $100</p>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium impedit maiores eaque possimus maxime et vitae excepturi. Atque, cumque minus.</p>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3 class="heading">Food Item - 2</h3>
+            <p class="paragraph">Price: $200</p>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam maxime dolores culpa. Ipsa, labore cupiditate facilis dolore sed libero quae!</p>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3 class="heading">Food Item - 3</h3>
+            <p class="paragraph">Price: $300</p>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis expedita nobis itaque facere beatae atque quaerat? Cum consequuntur quis similique?</p>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3 class="heading">Food Item - 4</h3>
+            <p class="paragraph">Price: $400</p>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo voluptates omnis, sequi itaque ad facere laudantium nisi veritatis vero cum.</p>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3 class="heading">Food Item - 5</h3>
+            <p class="paragraph">Price: $500</p>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veritatis laborum perspiciatis, iste possimus reprehenderit vero dolore quis modi dignissimos?</p>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3 class="heading">Food Item - 6</h3>
+            <p class="paragraph">Price: $600</p>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium maxime similique numquam ab odio. Culpa molestias aliquam impedit nostrum nobis?</p>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3 class="heading">Food Item - 7</h3>
+            <p class="paragraph">Price: $700</p>
+            <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, nam. Distinctio ex inventore, commodi corporis a tempore vitae quo est?</p>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3 class="heading">Food Item - 8</h3>
+            <p class="paragraph">Price: $800</p>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quia, minima libero quod fuga in nobis quae tempora veniam unde!</p>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3 class="heading">Food Item - 9</h3>
+            <p class="paragraph">Price: $900</p>
+            <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque delectus repellat necessitatibus commodi nesciunt obcaecati odio repudiandae magni suscipit illum.</p>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3 class="heading">Food Item - 10</h3>
+            <p class="paragraph">Price: $1000</p>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, nemo! Tempore debitis et atque tempora excepturi dolorum enim aperiam voluptate.</p>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3 class="heading">Food Item - 11</h3>
+            <p class="paragraph">Price: $1100</p>
+            <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, molestias aliquid quasi deleniti voluptate iusto rem modi suscipit molestiae! Autem.</p>
+            <button class="btn">Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3 class="heading">Food Item - 12</h3>
+            <p class="paragraph">Price: $1200</p>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit libero culpa velit recusandae! Quos earum cum debitis! Magnam, optio debitis!</p>
+            <button class="btn">Buy Now</button>
+        </div>
+    </div>
+</body>
+</html>
